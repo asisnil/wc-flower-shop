@@ -1,7 +1,6 @@
 .features{
     display: flex;
     margin: 20px 15%;
-    border: 1px solid green;
     justify-content: center;
     align-items: center;
     background-color: rgba(39, 39, 39, 0.05);
@@ -11,10 +10,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
-    width: 180px;
-    height: 180px;
     padding: 20px;
+}
+.features>figure>img{
+    width: 80px;
+    height: 80px;
 }
 .features>figure>figcaption{
     text-align: center;
