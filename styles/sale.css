@@ -1,0 +1,50 @@
+.sale{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.sale-description{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10% 5%;
+    align-items: center;
+    border: 1px solid red;
+}
+.sale-description>*{
+    margin-top: 20px;
+}
+.sale-description h2{
+    font-weight: bolder;
+    font-size: 29px;
+}
+.sale-description p{
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.sale-description>button{
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+}
+.sale-description>button:hover{
+    cursor: pointer;
+}
+.sale-image{
+    max-width: 50%;
+    border: 1px solid red;
+    bottom: 0;
+    margin-left: 30px;
+}
+.sale-image img{
+    width: 230px;
+}
+#off{
+    color: rgba(229, 84, 115, 1);
+}
