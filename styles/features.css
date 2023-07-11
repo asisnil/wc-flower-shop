@@ -1,0 +1,22 @@
+.features{
+    display: flex;
+    margin: 20px 15%;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.features>figure{
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+.features>figure>figcaption{
+    text-align: center;
+    font-size: 15px;
+}
