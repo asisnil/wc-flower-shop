@@ -1,20 +1,18 @@
 .instagram{
     display: flex;
     margin: 20px 15%;
-    border: 1px solid green;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .instagram-description{
-    border: 1px solid red;
-    padding: 40px 30%;
+    padding: 40px 25%;
 }
 .instagram-description>*{
     text-align: center;
 }
 .instagram-description>h2{
-    font-weight: 900;
+    font-weight: 700;
 }
 .instagram-description>p{
     font-size: 14px;
