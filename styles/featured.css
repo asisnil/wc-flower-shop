@@ -20,28 +20,30 @@
 .featured-flowers-images{
     display: flex;
     max-width: 100%;
-    
     align-items: end;
     justify-content: center;
 }
 .featured-flowers-images>figure{
     height: 420px;
-    border-radius: 50% 50% 0 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content:flex-end;
-    padding: 0 45px;
+    border-radius: 50% 50% 0 0;
 }
 .featured-flowers-images>figure>img{
-    width: 200px;
+    width: 250px;
+    height: 350px;
+    border-radius: 50% 50% 0 0;
+    padding-top: 50px;
 }
 .featured-flowers-images>figure>figcaption{
     background-color: white;
-    width: 100%;
     text-align: center;
-    text-decoration: solid 2px black;
-    padding-top: 20px;
+    padding: 20px;
+}
+.featured-flowers-images>figure>figcaption{
+    text-decoration: underline black 1px;
 }
 #featured-flower-1{
     background-color: rgba(167, 33, 98, 0.15);
