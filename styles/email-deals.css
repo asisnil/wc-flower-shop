@@ -1,0 +1,41 @@
+.email-deals{
+    background-image: url("/Flower\ Asset/Rectangle 9.png");
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 15%;
+    background-size: cover;
+}
+.email-deals>h2{
+    font-weight: 900;
+}
+.email-deals>p{
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.email-deals>*:not(:first-child){
+    margin-top: 15px;
+}
+.email-deals>form>button{
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.email-deals>form>button:hover{
+    cursor: pointer;
+}
+.email-deals>form>input{
+    border: none;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
