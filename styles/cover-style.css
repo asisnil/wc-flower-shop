@@ -8,7 +8,6 @@
     max-width: 50%;
     align-items: center;
     padding: 150px 100px;
-    border: 1px solid red;
 }
 .cover-image>img{
     width: 500px;
@@ -18,7 +17,6 @@
 .cover-image{
     max-width: 50%;
     width: 100%;
-    border: 1px solid red;
 }
 .cover-description>*{
     margin-top: 25px;
@@ -26,7 +24,7 @@
 .cover-description>h1{
     margin-top: 45px;
     font-size: 44px;
-    font-weight: bolder;
+    font-weight: 700;
 }
 .cover-description>p{
     font-size: 14px;
