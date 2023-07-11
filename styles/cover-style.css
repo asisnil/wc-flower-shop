@@ -1,0 +1,45 @@
+.cover{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.1);
+    max-width: 100%;
+    height: 100vh;
+}
+.cover-description{
+    max-width: 50%;
+    align-items: center;
+    padding: 150px 100px;
+    border: 1px solid red;
+}
+.cover-image>img{
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+}
+.cover-image{
+    max-width: 50%;
+    width: 100%;
+    border: 1px solid red;
+}
+.cover-description>*{
+    margin-top: 25px;
+}
+.cover-description>h1{
+    margin-top: 45px;
+    font-size: 44px;
+    font-weight: bolder;
+}
+.cover-description>p{
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.cover-description>button{
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+}
+.cover-description>button:hover{
+    cursor: pointer;
+}
