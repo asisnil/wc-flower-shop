@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    width: 100%;
 }
 .sale-description{
     max-width: 50%;
@@ -12,7 +13,6 @@
     text-align: center;
     padding: 10% 5%;
     align-items: center;
-    border: 1px solid red;
 }
 .sale-description>*{
     margin-top: 20px;
@@ -38,7 +38,6 @@
 }
 .sale-image{
     max-width: 50%;
-    border: 1px solid red;
     bottom: 0;
     margin-left: 30px;
 }
